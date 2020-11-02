@@ -23,7 +23,20 @@ class Fib():
     def __init__(self, value=0):
         self.value = value
 
-    #def next(self):
+    def next(self):
+        if self.value == 0:
+            a = 1
+            return a
+        elif a == 1:
+            b = 1
+#            a += 1
+            return self.value + a
+        elif b >= 1:
+          b += 1
+          return self.value + b
+        self.value += 1
+
+
         "*** ТВОЙ КОД ЗДЕСЬ ***"
 
     def __repr__(self):
